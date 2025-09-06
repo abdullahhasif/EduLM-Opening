@@ -76,10 +76,10 @@ export default function HomePage() {
       <header className="absolute top-0 left-0 right-0 z-10 p-6 flex justify-between items-center">
         <div className="flex items-center">
           <Image
-            src="/images/education-lm-full-logo.png"
+            src="/logo.jpg"
             alt="EducationLM Logo"
-            width={200}
-            height={50}
+            width={300}
+            height={75}
             className="h-10 w-auto"
           />
         </div>
