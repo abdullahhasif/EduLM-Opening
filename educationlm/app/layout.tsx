@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "EducationLM - Learning, reimagined for tomorrow",
+  title: "EducationLM",
   description:
     "AI-powered platform designed to revolutionize your educational journey. Get ready for a personalized learning experience like no other.",
   generator: "v0.app",
@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/edulm.jpeg" type="image/jpeg" />
+      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
