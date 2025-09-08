@@ -143,7 +143,7 @@ export default function HomePage() {
 
       <footer className="relative z-10 p-6 flex justify-center items-center space-x-6">
         <a
-          href="https://instagram.com/educationlm"
+          href="https://instagram.com/educationlm.ai"
           target="_blank"
           rel="noopener noreferrer"
           className="text-black hover:text-gray-700 transition-colors"
